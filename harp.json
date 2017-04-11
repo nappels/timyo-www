@@ -1,0 +1,13 @@
+{
+    "globals": {
+        "site": {
+            "url": "https://timyo.com",
+            "title": "Timyo | email that matters, when it matters.",
+            "description": "Timyo is the first business email solution that respects your most precious resource: time.",
+            "keywords": "email, productivity app, iphone app, clarity, peace",
+            "language": "en",
+            "author": "Timyo"
+        },
+        "google_analytics": ""
+    }
+}
