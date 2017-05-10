@@ -41,23 +41,20 @@ install:
 	mkdir public/assets/scripts/vendor/ || echo "Already have vendor directory!"
 
 	@echo -e "${YELLOW}Copy required assets from bower components${NC}"
-	cp $(BOWER)/bootstrap/dist/js/bootstrap.js      $(JS_VENDOR)
-	cp $(BOWER)/bootstrap/dist/js/bootstrap.min.js  $(JS_VENDOR)
-	cp $(BOWER)/html5shiv/dist/html5shiv.js         $(JS_VENDOR)
-	cp $(BOWER)/html5shiv/dist/html5shiv.min.js     $(JS_VENDOR)
-	cp $(BOWER)/jquery/dist/jquery.js               $(JS_VENDOR)
-	cp $(BOWER)/jquery/dist/jquery.min.js           $(JS_VENDOR)
-	cp $(BOWER)/respond/dest/respond.src.js         $(JS_VENDOR)/respond.js
-	cp $(BOWER)/respond/dest/respond.min.js         $(JS_VENDOR)
-	cp $(BOWER)/bootstrap/less/variables.less       $(ASSETS)/styles/_bootstrap-variables-copy.less
+	cp $(BOWER)/html5shiv/dist/html5shiv.js         	$(JS_VENDOR)
+	cp $(BOWER)/html5shiv/dist/html5shiv.min.js     	$(JS_VENDOR)
+	cp $(BOWER)/jquery/dist/jquery.js               	$(JS_VENDOR)
+	cp $(BOWER)/jquery/dist/jquery.min.js           	$(JS_VENDOR)
+	cp $(BOWER)/respond/dest/respond.src.js         	$(JS_VENDOR)/respond.js
+	cp $(BOWER)/respond/dest/respond.min.js         	$(JS_VENDOR)
+	cp $(BOWER)/flexboxgrid/dist/flexboxgrid.css  		$(ASSETS)/styles/_flexboxgrid.less
 
 clean:
 	@echo -e "${YELLOW}Removing installed dependencies${NC}"
 	rm -rf $(BOWER)
 	rm -rf node_modules
 	rm -rf www
-	rm -rf $(ASSETS)/fonts/*
-	rm -rf $(ASSETS)/styles/_bootstrap-variables-copy.less
+	rm -rf $(ASSETS)/styles/_flexboxgrid.less
 	rm -rf $(JS_VENDOR)/*
 
 chmod:
