@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  padding: 20px 0;
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  a.icon-timyo-logo {
+    display: block;
+  }
+
+  .desktop-navbar-wrapper {
+    .flex-display;
+    .justify-content(flex-end);
+    .align-items(center);
+    nav.desktop-navbar {
+      display: inline-block;
+      margin-right: 26px;
+      vertical-align: middle;
+
+      ul li {
+        display: inline-block;
+        margin-right: 26px;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,6 @@
 bower_components
 node_modules
 public/assets/scripts/vendor
-public/assets/styles/_flexboxgrid.less
 public/assets/styles/vendor
 www
 sprites/

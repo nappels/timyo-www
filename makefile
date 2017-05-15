@@ -9,6 +9,7 @@ NC   = \033[0m
 # Paths
 # -----------------------------------------------------------------------------
 BOWER = bower_components
+NPM = node_modules
 ASSETS = public/assets
 JS_VENDOR = $(ASSETS)/scripts/vendor
 WEB_BRANCH = gh-pages
@@ -47,7 +48,7 @@ install:
 	cp $(BOWER)/jquery/dist/jquery.min.js           	$(JS_VENDOR)
 	cp $(BOWER)/respond/dest/respond.src.js         	$(JS_VENDOR)/respond.js
 	cp $(BOWER)/respond/dest/respond.min.js         	$(JS_VENDOR)
-	cp $(BOWER)/flexboxgrid/dist/flexboxgrid.css  		$(ASSETS)/styles/_flexboxgrid.less
+	cp $(NPM)/normalize.css/normalize.css							$(ASSETS)/styles/_normalize.less
 
 clean:
 	@echo -e "${YELLOW}Removing installed dependencies${NC}"

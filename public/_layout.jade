@@ -3,8 +3,10 @@ html(lang='#{ site.language }')
 != partial('_partials/head')
 
 body
-  != partial('_partials/navbar')
+  .border
+  .container-fluid
+    != partial('_partials/navbar')
 
-  != yield
+    != yield
 
-  != partial('_partials/footer')
+    != partial('_partials/footer')
