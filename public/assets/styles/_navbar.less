@@ -1,6 +1,9 @@
 header {
   width: 100%;
-  padding: 20px 0;
+  padding: 30px 0 14px;
+  background: #fff;
+  transition: box-shadow .2s ease;
+  position: absolute;
 
   .navbar-toggle {
     display: none;
@@ -32,4 +35,10 @@ header {
       }
     }
   }
+}
+
+body.scrolled header {
+  position: fixed;
+  padding: 14px 0;
+  box-shadow: 0 0 24px rgba(80, 80, 80, 0.3);
 }

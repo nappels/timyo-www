@@ -4,9 +4,9 @@ html(lang='#{ site.language }')
 
 body
   .border
+  != partial('_partials/navbar')
+  
   .container-fluid
-    != partial('_partials/navbar')
-
     != yield
 
     != partial('_partials/footer')

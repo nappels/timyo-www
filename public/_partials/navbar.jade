@@ -1,16 +1,18 @@
-header.row.middle-sm
-  .col-xs-4
-    nav.mobile-navbar(role='navigation')
-      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-    a.common-sprite.icon-timyo-logo(href='/')
-  .col-xs-8.desktop-navbar-wrapper
-    nav.desktop-navbar
-      ul
-        li(class="#{ current.path[0] == 'mission' ? 'active' : '' }")
-          a(href='/mission') Mission
-        li(class="#{ current.path[0] == 'teams' ? 'active' : '' }")
-          a(href='/teams') For Teams
-    a.btn.btn-primary(href="#") Download
+header
+  .container-fluid
+    .row.middle-sm
+      .col-xs-4
+        nav.mobile-navbar(role='navigation')
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        a.common-sprite.icon-timyo-logo(href='/')
+      .col-xs-8.desktop-navbar-wrapper
+        nav.desktop-navbar
+          ul
+            li(class="#{ current.path[0] == 'mission' ? 'active' : '' }")
+              a(href='/mission') Mission
+            li(class="#{ current.path[0] == 'teams' ? 'active' : '' }")
+              a(href='/teams') For Teams
+        a.btn.btn-primary(href="#") Download
