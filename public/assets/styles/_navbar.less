@@ -31,10 +31,11 @@ header {
       .icon-bar {
         width: 29px;
         height: 2px;
-        background: #111;
+        background: @black;
+        transition: all .2s ease;
       }
 
-      @media screen and (min-width: @break-xs) {
+      @media screen and (min-width: @break-xs-up) {
         margin-right: 14px;
       }
     }
@@ -69,7 +70,7 @@ header {
     }
   }
 
-  @media screen and (min-width: @break-sm) {
+  @media screen and (min-width: @break-sm-up) {
     .mobile-navbar {
       display: none;
     }
@@ -85,4 +86,36 @@ body.scrolled header {
   position: fixed;
   padding: 14px 0;
   box-shadow: 0 0 24px rgba(80, 80, 80, 0.3);
+}
+
+@media screen and (max-width: @break-sm-down) {
+  body.mobile-nav-open {
+    header {
+      z-index: 301;
+      box-shadow: none;
+
+      .desktop-navbar-wrapper,
+      .icon-timyo-logo {
+        display: none;
+      }
+
+      .mobile-navbar {
+        .navbar-toggle {
+          .icon-bar {
+            &:nth-child(1) {
+              transform: rotate(45deg);
+              transform-origin: left;
+            }
+            &:nth-child(2) {
+              opacity: 0;
+            }
+            &:nth-child(3) {
+              transform: rotate(-45deg);
+              transform-origin: left;
+            }
+          }
+        }
+      }
+    }
+  }
 }

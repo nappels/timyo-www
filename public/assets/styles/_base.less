@@ -17,6 +17,14 @@ body {
   min-height: 100%;
   .flex-display;
   .flex-direction(column);
+
+  &.mobile-nav-open {
+    overflow: hidden;
+
+    @media screen and (min-width: @break-sm-up) {
+      overflow: visible;
+    }
+  }
 }
 
 * {

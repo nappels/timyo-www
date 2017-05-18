@@ -3,18 +3,14 @@ header
     .row
       .col-xs-12.middle-sm.navbar-wrapper
         .mobile-navbar-wrapper
-          nav.mobile-navbar(role='navigation')
-            button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+          .mobile-navbar
+            button.navbar-toggle(type='button' data-event-click='toggleNavbar')
               span.icon-bar
               span.icon-bar
               span.icon-bar
           a.common-sprite.icon-timyo-logo(href='/')
 
         .desktop-navbar-wrapper
-          nav.desktop-navbar
-            ul
-              li(class="#{ current.path[0] == 'mission' ? 'active' : '' }")
-                a(href='/mission') Mission
-              li(class="#{ current.path[0] == 'teams' ? 'active' : '' }")
-                a(href='/teams') For Teams
+          nav.desktop-navbar(role='navigation')
+            != partial('navlist')
           a.btn.btn-primary(href="#") Download

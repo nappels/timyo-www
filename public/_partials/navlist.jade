@@ -1,0 +1,8 @@
+ul
+  if mobileNav
+    li(class="#{ current.path[0] == 'home' ? 'active' : '' }")
+      a(href='/') Home
+  li(class="#{ current.path[0] == 'mission' ? 'active' : '' }")
+    a(href='/mission') Mission
+  li(class="#{ current.path[0] == 'teams' ? 'active' : '' }")
+    a(href='/teams') For Teams

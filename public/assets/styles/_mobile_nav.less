@@ -1,0 +1,49 @@
+.mobile-nav-modal {
+  display: none;
+  padding-top: 71px; // height of header
+
+  .mobile-nav-list {
+    ul {
+      margin-top: 25px;
+
+      li {
+        text-align: center;
+        font-size: 22px;
+        color: @gray-text;
+
+        a {
+          padding: 25px 0;
+          display: block;
+          transition: color .2s ease;
+          font-weight: 500;
+
+          &:hover {
+            color: @black;
+          }
+        }
+      }
+    }
+  }
+}
+
+body.mobile-nav-open {
+  .mobile-nav-modal {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 201;
+  }
+
+  @media screen and (min-width: @break-sm-up) {
+    .mobile-nav-modal {
+      display: none;
+    }
+  }
+}

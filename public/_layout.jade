@@ -2,8 +2,9 @@ doctype html
 html(lang='#{ site.language }')
 != partial('_partials/head')
 
-body
+body.mobile-nav-open
   .border
+  != partial('_partials/mobile_nav')
   != partial('_partials/navbar')
   
   .container-fluid
