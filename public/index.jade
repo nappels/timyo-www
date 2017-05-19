@@ -53,7 +53,7 @@ main.home
           | At a glance, you know how and when to do. This offer two science-backed benefits.
     
   .row
-    .col-sm-5
+    .col-sm-5.mission-cards
       != partial('_partials/icon_card', public._data.icon_cards.increased_productivity)
       != partial('_partials/icon_card', public._data.icon_cards.stress_free)
     .col-sm-7
@@ -81,6 +81,33 @@ main.home
       != partial('_partials/icon_card', public._data.icon_cards.clear_expectations)
       != partial('_partials/icon_card', public._data.icon_cards.clear_priorities)
       != partial('_partials/icon_card', public._data.icon_cards.schedule_email)
+      
+  .row
+    .col-xs-12
+      .body-text-content
+        h2.h1 More reasons to love 
+          span.bold timyo.
+        p
+          | Don’t waste your presious time dealing with email. 
+          span.bold timyo 
+          | will take care of that. Up and running in just a few minutes.
+  
+  .row
+    .col-xs-12.timyo-reasons-section
+      .row
+        .col-sm-4
+          != partial('_partials/icon_card', public._data.icon_cards.expected_replies)
+        .col-sm-4
+          != partial('_partials/icon_card', public._data.icon_cards.smart_notifications)
+        .col-sm-4
+          != partial('_partials/icon_card', public._data.icon_cards.notify_sender)
+      .row
+        .col-sm-4
+          != partial('_partials/icon_card', public._data.icon_cards.cc_bcc_insights)
+        .col-sm-4
+          != partial('_partials/icon_card', public._data.icon_cards.security_first)
+        .col-sm-4
+          != partial('_partials/icon_card', public._data.icon_cards.todo_integration)
         
       
           

@@ -36,6 +36,42 @@
       "dataTabId": "scheduleEmail",
       "header": "Schedule email to keep control",
       "body": "Shifting between tasks kills our productivity. Even taking a minute to respond to an email pulls your focus and distracts you from everything else you’ve got going on."
+    },
+    "expected_replies": {
+      "icon": "arrow",
+      "color": "blue",
+      "header": "Expected Replies",
+      "body": "Because you send email with clear expectations. We let you know when a reply is pending or overdue."
+    },
+    "smart_notifications": {
+      "icon": "bell",
+      "color": "yellow",
+      "header": "Smart Notifications",
+      "body": "Choose to be notified only for emails that require your immediate attention (Today, VIPs)."
+    },
+    "notify_sender": {
+      "icon": "phone",
+      "color": "green",
+      "header": "Notify the Sender",
+      "body": "With just one click, inform the sender when you plan on dealing with their request."
+    },
+    "cc_bcc_insights": {
+      "icon": "wand",
+      "color": "green",
+      "header": "CC & BCC Insights",
+      "body": "CC or BCC messages are tagged in your inbox. Now you now know which emails may require more attention."
+    },
+    "security_first": {
+      "icon": "security",
+      "color": "red",
+      "header": "Security First",
+      "body": "We provide physical, electronic, and procedural safeguards to protect the confidentiality of your information."
+    },
+    "todo_integration": {
+      "icon": "clipboard",
+      "color": "blue",
+      "header": "To-Do Integration",
+      "body": "Create your own To-Do straight from your inbox. Just send yourself an email with expectation."
     }
   }
 }
