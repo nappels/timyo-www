@@ -1,0 +1,13 @@
+.get-timyo_footer
+  .row.row-3
+    .col-sm-4
+      != partial('get_timyo_card', public._data.get_timyo_cards.chrome)
+    .col-sm-4
+      != partial('get_timyo_card', public._data.get_timyo_cards.office)
+    .col-sm-4
+      != partial('get_timyo_card', public._data.get_timyo_cards.outlook)
+  .row.row-2
+    .col-sm-6
+      != partial('get_timyo_card', public._data.get_timyo_cards.apple)
+    .col-sm-6
+      != partial('get_timyo_card', public._data.get_timyo_cards.play)

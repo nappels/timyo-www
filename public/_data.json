@@ -80,5 +80,27 @@
       "author": "Cho-Nan Tsai",
       "title": "CTO at Camino Financial"
     }
-  ]
+  ],
+  "get_timyo_cards": {
+    "chrome": {
+      "icon": "chrome",
+      "title": "Chrome"
+    },
+    "office": {
+      "icon": "office",
+      "title": "Office 365"
+    },
+    "outlook": {
+      "icon": "outlook",
+      "title": "Outlook"
+    },
+    "apple": {
+      "icon": "apple",
+      "title": "App Store"
+    },
+    "play": {
+      "icon": "google-play",
+      "title": "Google Play"
+    }
+  }
 }
