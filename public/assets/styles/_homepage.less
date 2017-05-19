@@ -300,4 +300,24 @@ main.home {
       }
     }
   }
+
+  .timyo-all-screens {
+    display: none;
+
+    @media screen and (min-width: @break-md-up) {
+      display: block;
+      background: url('/assets/images/timyo_all_screens.jpg') no-repeat;
+      max-height: 366px;
+      height: 100%;
+      width: 100%;
+      max-width: 799px;
+      background-size: 100% auto;
+      margin: 10px auto;
+      padding-bottom: 37%;
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: url('/assets/images/timyo_all_screens@2x.jpg');
+      }
+    }
+  }
 }
