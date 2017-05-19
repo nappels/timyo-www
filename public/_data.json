@@ -72,6 +72,30 @@
       "color": "blue",
       "header": "To-Do Integration",
       "body": "Create your own To-Do straight from your inbox. Just send yourself an email with expectation."
+    },
+    "team_workload": {
+      "icon": "thumb",
+      "color": "blue",
+      "header": "Respect your team workload",
+      "body": "Using Timyo across a whole team creates a positive communication feedback loop and an essential culture of efficiency."
+    },
+    "protect_focus": {
+      "icon": "binoculars",
+      "color": "green",
+      "header": "Protect your team focus",
+      "body": "Give a clear understanding of what each individual needs exactly to accomplish today. Your colleagues' time is expensive."
+    },
+    "reduce_email": {
+      "icon": "hourglass",
+      "color": "red",
+      "header": "Reducing busy email",
+      "body": "By helping others to be more productive, we help ourselves to make our daily email workload more manageable. A gift that gives back."
+    },
+    "daily_goal": {
+      "icon": "cup",
+      "color": "yellow",
+      "header": "Archive your daily goal",
+      "body": "Even if your colleagues check their emails after work, they know they don’t have to reply to your work emails until they're back at the office."
     }
   },
   "testimonials": [

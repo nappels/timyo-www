@@ -1,0 +1,93 @@
+.teams {
+  .intro-section {
+    .card {
+      max-width: 321px;
+      width: 100%;
+      margin: 40px auto 0;
+      box-shadow: 0px 2px 24px #eee;
+      border-radius: 10px;
+      position: relative;
+      padding-bottom: 10px;
+      text-align: left;
+
+      .img {
+        background: url('/assets/images/for_teams.jpg');
+        height: 187px;
+        width: 321px;
+        max-width: 100%;
+        background-size: 321px 187px;
+        border-radius: 10px;
+
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          background-image: url('/assets/images/for_teams@2x.jpg');
+        }
+      }
+
+      .title,
+      .body {
+        padding: 0 40px;
+      }
+
+      .title p {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 16px;
+      }
+
+      .body p {
+        font-size: 12px;
+        color: @gray-text;
+        line-height: 1.7;
+        font-weight: 300;
+        margin-top: 0px;
+      }
+
+      .icon-wrapper {
+        display: inline-block;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+        position: absolute;
+        right: 40px;
+        right: 30px;
+        bottom: -26px;
+        box-shadow: 0px 11px 23px #eee;
+        background: #fff;
+
+        .timyo-icon {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          line-height: 1rem;
+        }
+      }
+    }
+
+    @media screen and (min-width: @break-md-up) {
+      text-align: left;
+
+      .card {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .icon-card-section {
+    @media screen and (min-width: @break-md-up) {
+      .icon-card {
+        text-align: left;
+
+        .timyo-icon {
+          float: left;
+        }
+
+        h4,
+        p {
+          margin-left: 55px;
+        }
+      }
+    }
+  }
+}

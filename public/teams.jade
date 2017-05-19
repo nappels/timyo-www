@@ -1,0 +1,49 @@
+main.teams
+  .row.intro-section
+    .col-md-6
+      h1 Backed by our users.
+      p 
+        | We learned that timyo helped 88% of our users feel more productive and
+        | provided peace of mind by helping them be in control of their inbox.
+
+      button.btn.btn-secondary See the data
+    
+    .col-md-5
+      .card
+        .img
+        .title
+          p
+            span.green 28% 
+            | of the working time is spent dealing with emails.
+        .body
+          p
+            span.bold 80% 
+            | of Timyo's users consider that managing their inbox is easier with Timyo and 
+            span.bold 90% 
+            | of people will prefer having a Timyo inbox view rather than their regular one.
+        .icon-wrapper
+          .timyo-icon.icon-smiley.green
+          
+  .row
+    .col-xs-12
+      .body-text-content
+        h2.h1 We are on a mission to preserve your time.
+        p 
+          | With 
+          span.bold timyo, 
+          | you send and receive emails with clear expectations. At a glance, 
+          | you know how and when to do. This offer two science-backed benefits.
+  
+  .row.icon-card-section
+    .col-xs-12
+      .row
+        .col-md-6
+          != partial('_partials/icon_card', public._data.icon_cards.team_workload)
+        .col-md-6
+          != partial('_partials/icon_card', public._data.icon_cards.protect_focus)
+      .row
+        .col-md-6
+          != partial('_partials/icon_card', public._data.icon_cards.reduce_email) 
+        .col-md-6 
+          != partial('_partials/icon_card', public._data.icon_cards.daily_goal) 
+        

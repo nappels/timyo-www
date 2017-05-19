@@ -66,6 +66,15 @@ header {
         &:last-child {
           margin-right: 0;
         }
+
+        a {
+          transition: opacity .2s ease;
+
+          &.active,
+          &:hover {
+            opacity: .7;
+          }
+        }
       }
     }
   }
