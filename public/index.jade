@@ -9,39 +9,79 @@ main.home
           span.bold time.
         
         button.btn.btn-secondary.watch-video-cta 
-          span.icon-play
+          span.timyo-icon.icon-play
           | Watch the video
         
   .row.card-heros
-    .col-xs
-      .card.read-by-tomorrow
-        .img
-        .title 
-          span.bold.uppercase Read 
-          | by 
-          span.bold.uppercase Tomorrow
-        .body
-          p Hi Carla, you don’t need to respond to this email. I just wanted to tell you that...
+    .col-xs-12
+      .card-slider
+        .card.read-by-tomorrow
+          .img
+          .title 
+            span.bold.uppercase Read 
+            | by 
+            span.bold.uppercase Tomorrow
+          .body
+            p Hi Carla, you don’t need to respond to this email. I just wanted to tell you that...
+      
+        .card.reply-by-today
+          .img
+          .title 
+            span.bold.uppercase Reply 
+            | by 
+            span.bold.uppercase Today
+          .body
+            p Marie, I need a huge favor. I need to know how many users are using our newest...
+      
+        .card.to-do
+          .img
+          .title 
+            span.bold.uppercase TO-DO 
+            | by 
+            span.bold.uppercase Friday
+          .body
+            p John, let’s prioritize the deck design for tomorrow’s presentation. Please do...
+  
+  .row
+    .col-xs-12
+      .body-text-content
+        h2.h1 We are on a mission to preserve your time.
+        p 
+          | With 
+          span.bold timyo, 
+          | you send and receive emails with clear expectations.
+          | At a glance, you know how and when to do. This offer two science-backed benefits.
     
-    .col-xs
-      .card.reply-by-today
-        .img
-        .title 
-          span.bold.uppercase Reply 
-          | by 
-          span.bold.uppercase Today
-        .body
-          p Marie, I need a huge favor. I need to know how many users are using our newest...
-    
-    .col-xs
-      .card.to-do
-        .img
-        .title 
-          span.bold.uppercase TO-DO 
-          | by 
-          span.bold.uppercase Friday
-        .body
-          p John, let’s prioritize the deck design for tomorrow’s presentation. Please do...
+  .row
+    .col-sm-5
+      != partial('_partials/icon_card', public._data.icon_cards.increased_productivity)
+      != partial('_partials/icon_card', public._data.icon_cards.stress_free)
+    .col-sm-7
+      .four-phones
+        
+  
+  .row
+    .col-xs-12
+      .body-text-content
+        h2.h1 Increase your team productivity and health.
+        p
+          | With 
+          span.bold timyo, 
+          | you send and receive emails with clear expectations. At a glance, 
+          | you know how and when to do. This offer two science-backed benefits.
+  
+  .row.iphone-tab-section
+    .col-md-6.graphic
+      .iphone-wrapper
+        .screen-wrapper
+          .screen.clear-expectations.active(data-id="clearExpectations")
+          .screen.clear-priorities(data-id="clearPriorities")
+          .screen.schedule-email(data-id="scheduleEmail")
+    .col-md-6.cards
+      != partial('_partials/icon_card', public._data.icon_cards.clear_expectations)
+      != partial('_partials/icon_card', public._data.icon_cards.clear_priorities)
+      != partial('_partials/icon_card', public._data.icon_cards.schedule_email)
+        
       
           
       

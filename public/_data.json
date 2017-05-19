@@ -1,5 +1,41 @@
 {
   "sitemap": {
     "layout": false
+  },
+
+  "icon_cards": {
+    "increased_productivity": {
+      "icon": "chart",
+      "color": "blue",
+      "header": "Increased Productivity",
+      "body": "With clear communication, you can focus on what matters, be better organized and provide better replies."
+    },
+    "stress_free": {
+      "icon": "smiley",
+      "color": "green",
+      "header": "Stress-Free",
+      "body": "timyo ends the pressure of the automatic ASAP email status quo, making all email less stressful."
+    },
+    "clear_expectations": {
+      "active": true,
+      "dataEventClick": "handleHomepageTabClick",
+      "dataTabId": "clearExpectations",
+      "header": "Send email with clear expectations",
+      "body": "Not all emails are created equal. Many don't need an answer. Most can wait until tomorrow. Choose when you would like a response and what kind of response you’re looking for."
+    },
+    "clear_priorities": {
+      "active": false,
+      "dataEventClick": "handleHomepageTabClick",
+      "dataTabId": "clearPriorities",
+      "header": "Receive email with clear priorities",
+      "body": "With Timyo, recipients know exactly what senders are looking for as soon as they see an email. As a Timyo user, you don't even need to open your email to know when and how to deal with it."
+    },
+    "schedule_email": {
+      "active": false,
+      "dataEventClick": "handleHomepageTabClick",
+      "dataTabId": "scheduleEmail",
+      "header": "Schedule email to keep control",
+      "body": "Shifting between tasks kills our productivity. Even taking a minute to respond to an email pulls your focus and distracts you from everything else you’ve got going on."
+    }
   }
 }

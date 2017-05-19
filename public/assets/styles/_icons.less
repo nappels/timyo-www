@@ -25,8 +25,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
+.timyo-icon:before {
   font-family: "timyo" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -36,6 +35,22 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: inherit;
+}
+
+.timyo-icon {
+  &.green {
+    color: @green;
+  }
+  &.yellow {
+    color: @yellow;
+  }
+  &.red {
+    color: @red;
+  }
+  &.blue {
+    color: @blue-text;
+  }
 }
 
 .icon-arrow:before {

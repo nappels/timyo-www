@@ -17,6 +17,7 @@ body {
   min-height: 100%;
   .flex-display;
   .flex-direction(column);
+  overflow-x: hidden;
 
   &.mobile-nav-open {
     overflow: hidden;
@@ -52,6 +53,7 @@ body {
   width: 100%;
   min-width: 320px;
   .flex(1);
+  overflow-x: hidden;
 }
 
 main {
@@ -59,9 +61,22 @@ main {
   .flex(1);
 
   .row {
-    margin: 60px auto 0;
+    margin: 50px auto 0;
     .justify-content(center);
     text-align: center;
+
+    &:first-child {
+      margin-top: 60px;
+    }
+
+    @media screen and (min-width: @break-md-up) {
+      margin: 80px auto 0;
+    }
+  }
+
+  .body-text-content {
+    max-width: 700px;
+    margin: 0 auto;
   }
 }
 
@@ -79,7 +94,8 @@ ul {
   }
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 30px;
   font-weight: 300;
 }
