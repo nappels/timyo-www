@@ -1,5 +1,7 @@
 footer {
   padding: 20px 0;
+  .align-items(center);
+  text-align: center;
 
   .icon-timyo-logo-sm,
   p {
@@ -14,5 +16,9 @@ footer {
   p {
     color: @gray-text;
     font-size: 12px;
+  }
+
+  @media screen and (min-width: @break-sm-up) {
+    text-align: left;
   }
 }
