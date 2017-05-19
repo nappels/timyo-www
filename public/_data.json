@@ -73,5 +73,12 @@
       "header": "To-Do Integration",
       "body": "Create your own To-Do straight from your inbox. Just send yourself an email with expectation."
     }
-  }
+  },
+  "testimonials": [
+    {
+      "body": "\"Not only does Timyo reduce the time I need to sift through emails it does the same for every one of my team members and that makes for a much more productive team.\"",
+      "author": "Cho-Nan Tsai",
+      "title": "CTO at Camino Financial"
+    }
+  ]
 }

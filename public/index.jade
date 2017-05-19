@@ -92,8 +92,8 @@ main.home
           span.bold timyo 
           | will take care of that. Up and running in just a few minutes.
   
-  .row
-    .col-xs-12.timyo-reasons-section
+  .row.timyo-reasons-section
+    .col-xs-12
       .row
         .col-sm-4
           != partial('_partials/icon_card', public._data.icon_cards.expected_replies)
@@ -108,7 +108,19 @@ main.home
           != partial('_partials/icon_card', public._data.icon_cards.security_first)
         .col-sm-4
           != partial('_partials/icon_card', public._data.icon_cards.todo_integration)
+          
+  .row.testimonials-section
+    .col-xs-12
+      .body-text-content
+        h3.h3 What our users are saying
         
+        .testimonial-wrapper
+          for testimonial in public._data.testimonials
+            .testimonial
+              p= testimonial.body
+              div.author= testimonial.author
+              div.title= testimonial.title
+          
       
           
       
