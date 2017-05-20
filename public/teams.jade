@@ -66,3 +66,57 @@ main.teams
         .service.teams-sprite.icon-productivity-yammer
         .service.teams-sprite.icon-productivity-misc
         .service.teams-sprite.icon-productivity-slack
+  
+  .row
+    .col-xs-12
+      .body-text-content-sm
+        h2.h1 
+          | Join 
+          span.bold timyo 
+          | for life.
+        p Register as many work email addresses across our desktop and mobile apps free for life.
+        
+  .row.pricing-section
+    .col-xs-12.pricing-wrapper
+      .hr
+      .card-wrapper
+        - for (var x = 1; x < 4; x++)
+          .card(class="card-#{x}")
+            .card-border
+            .top Timyo for teams
+            .price
+              - if (x == 1)
+                | $10
+              - else if (x == 2)
+                | Free
+              - else
+                | $25
+            .body
+              ul
+                li Unlimited users
+                li Unlimited devices
+                li Free updates
+      
+      .tag.green Limited time offer
+    .col-sm-12
+      p.fine 
+        | For a limited time, activate Timyo before we release our premium 
+        | features and you'll be automatically upgraded for free.
+  
+  .row
+    .col-xs-12
+      .body-text-content-sm
+        h2.h1 Seamless Integration.
+        
+        p 
+          span.bold timyo 
+          | works seamlessly from your 
+          span.bold mobile 
+          | to your 
+          span.bold desktop. 
+          | Be an early adopter and enjoy it free for life.
+
+  .row
+    .col-xs-12
+      != partial('_partials/get_timyo_footer')
+        
