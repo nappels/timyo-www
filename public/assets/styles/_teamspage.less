@@ -90,4 +90,55 @@
       }
     }
   }
+
+  .services-section {
+    .services {
+      .flex-display;
+      .align-items(center);
+      .justify-content(space-between);
+      padding: 20px 0 0 0;
+
+      .service {
+        &:nth-child(2) {
+          position: relative;
+          top: -40px;
+        }
+      }
+
+      &.last {
+        padding: 0 0 20px 0;
+
+        .service {
+          &:nth-child(2) {
+            top: 40px;
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: @break-md-up) {
+      .services {
+        .flex-direction(column);
+        padding: 0 0 0 20px;
+
+        .service {
+          &:nth-child(2) {
+            top: 0;
+            left: -40px;
+          }
+        }
+
+        &.last {
+          padding: 0 20px 0 0;
+
+          .service {
+            &:nth-child(2) {
+              top: 0;
+              left: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
