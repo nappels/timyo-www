@@ -1,13 +1,30 @@
-.get-timyo_footer
-  .row.row-3
-    .col-md-4
-      != partial('get_timyo_card', public._data.get_timyo_cards.chrome)
-    .col-md-4
-      != partial('get_timyo_card', public._data.get_timyo_cards.office)
-    .col-md-4
-      != partial('get_timyo_card', public._data.get_timyo_cards.outlook)
-  .row.row-2
-    .col-md-6
-      != partial('get_timyo_card', public._data.get_timyo_cards.apple)
-    .col-md-6
-      != partial('get_timyo_card', public._data.get_timyo_cards.play)
+.row
+  .col-xs-12
+    .body-text-content-sm
+      h2.h1 Seamless Integration.    
+      p 
+        span.bold timyo 
+        | works seamlessly from your 
+        span.bold mobile 
+        | to your 
+        span.bold desktop. 
+        | Be an early adopter and enjoy it free for life.
+  if home
+    .col-xs-12
+      .timyo-all-screens
+
+.row
+  .col-xs-12
+    .get-timyo_footer
+      .row.row-3
+        .col-md-4
+          != partial('get_timyo_card', public._data.get_timyo_cards.chrome)
+        .col-md-4
+          != partial('get_timyo_card', public._data.get_timyo_cards.office)
+        .col-md-4
+          != partial('get_timyo_card', public._data.get_timyo_cards.outlook)
+      .row.row-2
+        .col-md-6
+          != partial('get_timyo_card', public._data.get_timyo_cards.apple)
+        .col-md-6
+          != partial('get_timyo_card', public._data.get_timyo_cards.play)
