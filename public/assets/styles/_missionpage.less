@@ -1,0 +1,68 @@
+.mission-page {
+  .mission-statement {
+    text-align: left;
+  }
+
+  .card {
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 24px 0px #eee;
+    text-align: center;
+    padding: 30px 40px 50px;
+    max-width: 780px;
+    position: relative;
+
+    .title {
+      font-size: 18px;
+    }
+
+    .body p {
+      font-size: 14px;
+      color: @gray-text;
+      line-height: 1.7;
+    }
+
+    .icon-set {
+      .flex-display;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      margin-top: 20px;
+
+      .icon-wrapper {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+        box-shadow: 0px 11px 23px #eee;
+        background: #fff;
+        position: relative;
+        margin: 0 8px;
+
+        .timyo-icon {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          line-height: 1rem;
+        }
+      }
+    }
+
+    @media screen and (min-width: @break-md-up) {
+      text-align: left;
+      padding: 30px 40px;
+
+      .button-wrapper {
+        text-align: right;
+      }
+
+      .icon-set {
+        right: 30px;
+        left: auto;
+        margin-top: 0;
+        transform: none;
+      }
+    }
+  }
+}
