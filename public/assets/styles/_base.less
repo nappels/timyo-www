@@ -127,6 +127,14 @@ p {
   }
 }
 
-.divider {
-  margin: 0 auto; 
+.divider-wrapper {
+  height: 95px; //height of divider
+  width: 100%;
+  position: relative;
+
+  .divider {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
