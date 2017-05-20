@@ -1,0 +1,151 @@
+main.results-page {
+  > .row {
+    margin: 75px auto 0;
+  }
+  .intro {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .h2 {
+    font-size: 30px;
+  }
+
+  .icon-wrapper {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    box-shadow: 0px 11px 23px #eee;
+    background: #fff;
+    position: relative;
+    margin: -80px auto 30px;
+
+    .timyo-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 1rem;
+    }
+  }
+
+  .stats {
+    .flex-display;
+    .align-items(center);
+    .justify-content(space-around);
+    margin: 90px auto;
+
+    .icon {
+      .flex(0 0 auto);
+      .flex-display;
+      .flex-direction(column-reverse);
+
+      &:nth-child(2) {
+        position: relative;
+        top: -80px;
+      }
+
+      .caption {
+        font-size: 16px;
+        margin-bottom: -30px;
+
+        &.small {
+          font-size: 12px;
+          color: @gray-text;
+        }
+      }
+    }
+
+    @media screen and (min-width: @break-md-up) {
+      margin-top: 30px;
+
+      .icon {
+        &:nth-child(2) {
+          top: auto;
+        }
+      }
+    }
+  }
+
+  .fix-email-section,
+  .company-section,
+  .inbox-manage-section {
+    background: @light-gray;
+    position: relative;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 60px;
+      width: 100%;
+      // margin-left: -2rem;
+      // margin-right: -2rem;
+      background: @light-gray;
+    }
+
+    &:before {
+      transform: skewY(-2.5deg);
+      top: -36px;
+    }
+
+    &:after {
+      transform: skewY(2.5deg);
+      bottom: -36px;
+    }
+  }
+
+  .company-section {
+    @media screen and (min-width: @break-md-up) {
+      padding-bottom: 40px;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .fix-email-section {
+    margin-top: 140px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+
+    &:before {
+      transform: skewY(2.5deg);
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .additional-stats-section {
+    .icon-wrapper {
+      margin: 40px auto;
+
+      &.first {
+        margin-top: -80px;
+      }
+    }
+
+    p {
+      padding: 0 10px;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    @media screen and (min-width: @break-md-up) {
+      .icon-wrapper,
+      .icon-wrapper.first {
+        margin-top: -115px;
+      }
+    }
+  }
+}

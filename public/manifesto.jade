@@ -1,0 +1,17 @@
+main.manifesto-page
+  .row
+    .col-md-12
+      .divider-wrapper
+        .common-sprite.divider
+  
+  .row
+    .col-md-12
+      .manifesto-header
+        h1.h1 10 ideas to improve communication. It starts with email.
+  .row
+    .col-md-12
+      for section in public._data.manifesto_sections
+        .row
+          .col-md-12
+            != partial('_partials/icon_card', section)
+        
