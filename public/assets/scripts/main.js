@@ -24,16 +24,18 @@ var Timyo = {
       Timyo.events.setActiveHomepageScreen(e);
     },
     setActiveCard: function(e) {
-      for (var card of e.currentTarget.parentNode.childNodes) {
-        card.classList.remove('active');
+      var children = Array.prototype.slice.call(e.currentTarget.parentNode.childNodes);
+      for (var i = 0; i < children.length; i++ ) {
+        children[i].classList.remove('active');
       }
       e.currentTarget.classList.add('active');
     },
     setActiveHomepageScreen: function(e) {
       var screenWrapper = document.querySelector('.screen-wrapper');
       var id = e.currentTarget.dataset.tabId;
-      for (var screenEl of screenWrapper.childNodes) {
-        screenEl.classList.remove('active');
+      var children = Array.prototype.slice.call(screenWrapper.childNodes);
+      for (var i = 0; i < children.length; i++ ) {
+        children[i].classList.remove('active');
       }
       screenWrapper.querySelector('[data-id="' + id + '"]').classList.add('active');
     },

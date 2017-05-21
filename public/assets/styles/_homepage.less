@@ -227,19 +227,26 @@ main.home-page {
 
     .cards {
       .flex-display;
-      min-width: 1000px;
       order: 0;
       margin: 0 0 16px;
 
+      .card-slider {
+        .flex-display;
+        .flex-direction(row);
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
 
-      .icon-card {
-        border-radius: 10px;
-        max-width: 450px;
-        cursor: pointer;
-        margin: 0 5px;
-        padding: 10px 14px;
-        box-shadow: 0 4px 20px #eee;
-        text-align: left;
+        .icon-card {
+          border-radius: 10px;
+          max-width: 450px;
+          cursor: pointer;
+          margin: 0 5px;
+          padding: 10px 14px;
+          box-shadow: 0 4px 20px #eee;
+          text-align: left;
+          min-width: 300px;
+        }
       }
     }
 
@@ -253,13 +260,22 @@ main.home-page {
         .flex-direction(column);
         .justify-content(space-between);
 
-        .icon-card {
-          margin: -20px 0 10px -20px;
-          box-shadow: none;
+        .card-slider {
+          .flex-direction(column);
+          .justify-content(space-between);
+          position: static;
+          transform: none;
+          height: 100%;
 
-          &.active {
-            box-shadow: 0 4px 20px #eee;
-            background: #fff;
+          .icon-card {
+            margin: -20px 0 10px -20px;
+            box-shadow: none;
+            min-width: auto;
+
+            &.active {
+              box-shadow: 0 4px 20px #eee;
+              background: #fff;
+            }
           }
         }
       }

@@ -3,6 +3,12 @@ footer {
   .align-items(center);
   text-align: center;
 
+  .bottom-nav-wrapper {
+    .flex-display;
+    .justify-content(space-between);
+    .align-items(center);
+  }
+
   .icon-timyo-logo-sm,
   p {
     display: inline-block;
@@ -10,7 +16,11 @@ footer {
   }
 
   .icon-timyo-logo-sm {
-    margin-right: 26px;
+    margin-top: 20px;
+  }
+
+  a {
+    font-size: 12px;
   }
 
   p {
@@ -20,5 +30,10 @@ footer {
 
   @media screen and (min-width: @break-sm-up) {
     text-align: left;
+
+    .icon-timyo-logo-sm {
+      margin-top: 0;
+      margin-right: 26px;
+    }
   }
 }

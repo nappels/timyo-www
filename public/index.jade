@@ -78,9 +78,10 @@ main.home-page
           .screen.clear-priorities(data-id="clearPriorities")
           .screen.schedule-email(data-id="scheduleEmail")
     .col-md-6.cards
-      != partial('_partials/icon_card', public._data.icon_cards.clear_expectations)
-      != partial('_partials/icon_card', public._data.icon_cards.clear_priorities)
-      != partial('_partials/icon_card', public._data.icon_cards.schedule_email)
+      .card-slider
+        != partial('_partials/icon_card', public._data.icon_cards.clear_expectations)
+        != partial('_partials/icon_card', public._data.icon_cards.clear_priorities)
+        != partial('_partials/icon_card', public._data.icon_cards.schedule_email)
       
   .row
     .col-xs-12

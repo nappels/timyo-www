@@ -143,10 +143,10 @@
 
   .pricing-section {
     .pricing-wrapper {
+      .flex-display;
+      .justify-content(space-between);
       position: relative;
-      min-width: 1000px;
-      display: flex;
-      justify-content: center;
+      max-width: 800px;
 
       .hr {
         position: absolute;
@@ -157,6 +157,9 @@
         background-size: 100% 72px;
         height: 72px;
         z-index: 101;
+        left: 50%;
+        transform: translate(-50%, 0);
+        min-width: 800px;
       }
 
       .tag {
@@ -170,11 +173,18 @@
         text-transform: uppercase;
         font-size: 12px;
         font-weight: bold;
+        left: 50%;
+        transform: translate(-50%, 0);
       }
 
       .card-wrapper {
         .flex-display;
         overflow: hidden;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        min-width: 800px;
+        width: 100%;
 
         .card {
           background: #fff;
