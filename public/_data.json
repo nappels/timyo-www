@@ -103,19 +103,19 @@
       "icon": "wand",
       "color": "green",
       "header": "Email is broken. It’s time to fix it.",
-      "body": "Simply put, if email weren’t broken, Timyo wouldn’t exist. We saw a world in which email had gone from being seen as a powerful, essential communication tool to being hated as one big time-sucking annoyance. How did this happen? More importantly, how could you possibly fix something as omnipresent and deeply embedded as email? Timyo is our answer to this second question."
+      "body": "If email weren’t broken, Timyo wouldn’t exist. We saw a world in which email had gone from being celebrated to being hated as one big time-sucking annoyance. We believe Timyo is a crucial part in making email a powerful, essential communication tool."
     },
     {
       "icon": "cup",
       "color": "blue",
       "header": "Time is our most precious resource.",
-      "body": "As the old line of advice goes: \"buy real estate; they ain’t making any more of it.\" This is even more true of time. It’s the great equalizer—the one thing that works the same for everyone in the world. Lots of well-intentioned people have come and gone, trying to save time with email—what’s exciting about Timyo is that it aims to save email with time."
+      "body": "As the old line of advice goes: \"buy real estate; they ain’t making any more of it.\" This is even more true of time. Lots of well-intentioned people have come and gone, trying to save time with email—Timyo aims to save email with time."
     },
     {
       "icon": "puzzle",
       "color": "red",
       "header": "Life is three-dimensional. Email should be, too.",
-      "body": "We believe that the central problem with email is that it currently exists in two dimensions: \"Who?\" (aka the \"To:\" and \"From:\" fields), and \"What?\" (the subject line). Timyo adds the third dimension: \"When?\" By letting senders tell recipients when they would like a response (or even if they aren’t expecting one at all), Timyo restores email to its rightful role as a key productivity tool."
+      "body": "The central problem with email is that it currently exists in two dimensions \"Who?\" (aka the \"To:\" and \"From:\" fields), and \"What?\" (the subject line). Timyo enrich the email protocol by adding a third  dimension: \"When?\" By letting senders tell recipients when they would like a response (or even if they aren’t expecting one at all), Timyo restores email to its rightful role as a key productivity tool."
     },
     {
       "icon": "bullseye",
@@ -127,37 +127,37 @@
       "icon": "security",
       "color": "green",
       "header": "Automatic ASAP is bad for everybody.",
-      "body": "The current default upon receiving an email is to assume that the sender expects an immediate reply. This is bad in both directions: for the recipient, it means stressing out about getting back to the email as soon as possible, even if that means dropping what they are currently working on or interrupting \"off-work\" hours. For the sender, automatic ASAP results in hurried replies that are unlikely to be very meaningful, often necessitating even more follow-up. By setting clear expectations, Timyo benefits sender and recipient alike."
+      "body": "The current default is to assume that an email's sender expects an immediate reply. This is bad in both directions: for the recipient, it means stressing out about getting back to the email as soon as possible, no matter what. For the sender, automatic ASAP results in hurried replies that are unlikely to be meaningful, often necessitating even more follow-up. By setting clear expectations, Timyo benefits sender and recipient alike."
     },
     {
       "icon": "scale",
       "color": "blue",
-      "header": "Better email is all about balance.",
-      "body": "We all act as both senders and recipients of email. But in the email status quo, the balance between these two roles is dangerously out of whack. Timyo works to restore that balance by enabling senders to send email easily with clear expectations, thus relieving the recipient of either dropping everything and replying right away, or else trying to be a mind reader and figuring out when (or even if) a response is expected."
+      "header": "Better email is all about balance, aka \"Email unto others...\"",
+      "body": "We all act as both senders and recipients of email. But in the email status quo, there is a huge imbalance between these two roles. Timyo works to restore that balance by enabling senders to send email easily with clear expectations."
     },
     {
       "icon": "plane",
       "color": "red",
       "header": "Let email be email.",
-      "body": "A lot of email solutions in the past few years have tried to make email more like other communication tools, such as social media, chat apps, or texting. We believe that those are also great tools, but we don't want to make email like them—we want to make email better at what email is already good at. Email is an asynchronous tool that is perfect for formal and substantive communication. Our aim is to make it the best possible version of itself, not some chat/social/message/video amalgam that also makes toast."
+      "body": "We want to make email better at what email is already good at. Email is an asynchronous tool that is perfect for formal and substantive communication. Our aim is to make it the best possible version of itself, not some chat/social/message/video amalgam that also makes toast."
     },
     {
       "icon": "chart",
       "color": "yellow",
       "header": "Busy-ness is bad for business.",
-      "body": "We believe that \"busy people want other people to be busy. Productive people want other people to be effective.\" Too often in our business world, busy-ness serves as a stand-in for productivity, but the connection is superficial at best, and at worst, it's simply an illusion. By helping to focus on what matters, when it matters, Timyo helps productive people do their best work."
+      "body": "We believe that \"busy people want other people to be busy. Productive people want other people to be effective.\" Too often in our business world, busy-ness serves as a stand-in for productivity. By helping to focus on what matters, when it matters, Timyo helps productive people do their best work."
     },
     {
       "icon": "smiley",
       "color": "green",
       "header": "By helping others, we help ourselves.",
-      "body": "We believe that better email is a non-zero sum game. By sending emails with clear expectations, the sender can expect more substantive, better prepared replies. And the recipient, having been given the gift of time, can generate response at a reasonable pace, thus limiting the unnecessary back and forth that too often clogs our inboxes. Timyo helps email become a true win-win situation."
+      "body": "We believe that better email is a non-zero sum game. By sending emails with clear expectations, the sender can expect more substantive, better prepared replies, and the recipient can generate a useful response at a reasonable pace. Timyo helps email become a true win-win situation."
     },
     {
       "icon": "globe",
       "color": "blue",
       "header": "A human problem requires a human solution.",
-      "body": "Perhaps most importantly, we believe that the main problem with email is the way that we currently use it. It is a human problem, and so requires a human solution. Rather than throwing a bunch of algorithms at the problem and hoping something works, Timyo enables users to painlessly modify their own email habits, in a way that is beneficial for senders and recipients alike, producing greater productivity and peace of mind."
+      "body": "Perhaps most importantly, we believe that the main problem with email is the way we currently use it. Email is a human problem, and so requires a human solution. Timyo enables users to painlessly modify their own email habits, in a way that is beneficial for both senders and recipients, producing greater productivity and peace of mind."
     }
   ],
   "testimonials": [
