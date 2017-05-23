@@ -1,0 +1,93 @@
+/* glue: 0.11.1 hash: 41994b07df */
+        .divider,
+.icon-timyo-logo,
+.icon-outlook,
+.icon-office,
+.icon-timyo-logo-sm,
+.icon-chrome,
+.icon-apple,
+.icon-google-play {
+            background-image: url('common_sprite.png');
+            background-repeat: no-repeat;
+        }
+        
+        .divider {
+            background-position: -1px -1px;
+            width: 325px;
+            height: 95px;
+        }
+        
+        .icon-timyo-logo {
+            background-position: -1px -98px;
+            width: 101px;
+            height: 41px;
+        }
+        
+        .icon-outlook {
+            background-position: -104px -98px;
+            width: 34px;
+            height: 34px;
+        }
+        
+        .icon-office {
+            background-position: -140px -98px;
+            width: 28px;
+            height: 33px;
+        }
+        
+        .icon-timyo-logo-sm {
+            background-position: -170px -98px;
+            width: 22px;
+            height: 31px;
+        }
+        
+        .icon-chrome {
+            background-position: -194px -98px;
+            width: 29px;
+            height: 29px;
+        }
+        
+        .icon-apple {
+            background-position: -225px -98px;
+            width: 23px;
+            height: 26px;
+        }
+        
+        .icon-google-play {
+            background-position: -250px -98px;
+            width: 23px;
+            height: 25px;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+            .divider,
+    .icon-timyo-logo,
+    .icon-outlook,
+    .icon-office,
+    .icon-timyo-logo-sm,
+    .icon-chrome,
+    .icon-apple,
+    .icon-google-play {
+                background-image: url('common_sprite.png');
+                -webkit-background-size: 327px 140px;
+                -moz-background-size: 327px 140px;
+                background-size: 327px 140px;
+            }
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 2.0), screen and (min--moz-device-pixel-ratio: 2.0), screen and (-o-min-device-pixel-ratio: 200/100), screen and (min-device-pixel-ratio: 2.0), screen and (min-resolution: 2.0dppx) {
+            .divider,
+    .icon-timyo-logo,
+    .icon-outlook,
+    .icon-office,
+    .icon-timyo-logo-sm,
+    .icon-chrome,
+    .icon-apple,
+    .icon-google-play {
+                background-image: url('common_sprite@2x.png');
+                -webkit-background-size: 327px 140px;
+                -moz-background-size: 327px 140px;
+                background-size: 327px 140px;
+            }
+        }
+        

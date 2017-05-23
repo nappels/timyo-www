@@ -1,0 +1,75 @@
+/* glue: 0.11.1 hash: e73e67f26b */
+        .icon-productivity-yammer,
+.icon-productivity-trello,
+.icon-productivity-misc,
+.icon-productivity-jira,
+.icon-productivity-asana,
+.icon-producivity-slack {
+            background-image: url('teams_sprite.png');
+            background-repeat: no-repeat;
+        }
+        
+        .icon-productivity-yammer {
+            background-position: -1px -1px;
+            width: 86px;
+            height: 86px;
+        }
+        
+        .icon-productivity-trello {
+            background-position: -89px -1px;
+            width: 86px;
+            height: 86px;
+        }
+        
+        .icon-productivity-misc {
+            background-position: -1px -89px;
+            width: 86px;
+            height: 86px;
+        }
+        
+        .icon-productivity-jira {
+            background-position: -89px -89px;
+            width: 86px;
+            height: 86px;
+        }
+        
+        .icon-productivity-asana {
+            background-position: -177px -1px;
+            width: 86px;
+            height: 86px;
+        }
+        
+        .icon-producivity-slack {
+            background-position: -177px -89px;
+            width: 86px;
+            height: 86px;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+            .icon-productivity-yammer,
+    .icon-productivity-trello,
+    .icon-productivity-misc,
+    .icon-productivity-jira,
+    .icon-productivity-asana,
+    .icon-producivity-slack {
+                background-image: url('teams_sprite.png');
+                -webkit-background-size: 264px 176px;
+                -moz-background-size: 264px 176px;
+                background-size: 264px 176px;
+            }
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 2.0), screen and (min--moz-device-pixel-ratio: 2.0), screen and (-o-min-device-pixel-ratio: 200/100), screen and (min-device-pixel-ratio: 2.0), screen and (min-resolution: 2.0dppx) {
+            .icon-productivity-yammer,
+    .icon-productivity-trello,
+    .icon-productivity-misc,
+    .icon-productivity-jira,
+    .icon-productivity-asana,
+    .icon-producivity-slack {
+                background-image: url('teams_sprite@2x.png');
+                -webkit-background-size: 264px 176px;
+                -moz-background-size: 264px 176px;
+                background-size: 264px 176px;
+            }
+        }
+        

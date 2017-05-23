@@ -1,0 +1,102 @@
+/* glue: 0.11.1 hash: 289de2d86b */
+        .icon-88-pct,
+.icon-80-pct,
+.icon-79-pct,
+.icon-95-pct,
+.icon-165-pct,
+.icon-13-pct,
+.icon-7-pct,
+.icon-45-pct,
+.icon-25-pct {
+            background-image: url('results_sprite.png');
+            background-repeat: no-repeat;
+        }
+        
+        .icon-88-pct {
+            background-position: -1px -1px;
+            width: 111px;
+            height: 111px;
+        }
+        
+        .icon-80-pct {
+            background-position: -114px -1px;
+            width: 111px;
+            height: 111px;
+        }
+        
+        .icon-79-pct {
+            background-position: -1px -114px;
+            width: 111px;
+            height: 111px;
+        }
+        
+        .icon-95-pct {
+            background-position: -114px -114px;
+            width: 101px;
+            height: 101px;
+        }
+        
+        .icon-165-pct {
+            background-position: -227px -1px;
+            width: 101px;
+            height: 101px;
+        }
+        
+        .icon-13-pct {
+            background-position: -227px -104px;
+            width: 101px;
+            height: 101px;
+        }
+        
+        .icon-7-pct {
+            background-position: -1px -227px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .icon-45-pct {
+            background-position: -103px -227px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .icon-25-pct {
+            background-position: -205px -227px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+            .icon-88-pct,
+    .icon-80-pct,
+    .icon-79-pct,
+    .icon-95-pct,
+    .icon-165-pct,
+    .icon-13-pct,
+    .icon-7-pct,
+    .icon-45-pct,
+    .icon-25-pct {
+                background-image: url('results_sprite.png');
+                -webkit-background-size: 329px 328px;
+                -moz-background-size: 329px 328px;
+                background-size: 329px 328px;
+            }
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 2.0), screen and (min--moz-device-pixel-ratio: 2.0), screen and (-o-min-device-pixel-ratio: 200/100), screen and (min-device-pixel-ratio: 2.0), screen and (min-resolution: 2.0dppx) {
+            .icon-88-pct,
+    .icon-80-pct,
+    .icon-79-pct,
+    .icon-95-pct,
+    .icon-165-pct,
+    .icon-13-pct,
+    .icon-7-pct,
+    .icon-45-pct,
+    .icon-25-pct {
+                background-image: url('results_sprite@2x.png');
+                -webkit-background-size: 329px 328px;
+                -moz-background-size: 329px 328px;
+                background-size: 329px 328px;
+            }
+        }
+        
