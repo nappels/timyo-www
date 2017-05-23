@@ -170,23 +170,28 @@
   "get_timyo_cards": {
     "chrome": {
       "icon": "chrome",
-      "title": "Chrome"
+      "title": "Chrome",
+      "href": "https://chrome.google.com/webstore/detail/timyo/fliamllfljamnbcapfbmcgddafjjjaid"
     },
     "office": {
       "icon": "office",
-      "title": "Office 365"
+      "title": "Office 365",
+      "href": "https://store.office.com/en-us/app.aspx?assetid=WA104380511&sourcecorrid=082e8caf-4739-475e-924c-f66e0511ecff&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false"
     },
     "outlook": {
       "icon": "outlook",
-      "title": "Outlook"
+      "title": "Outlook",
+      "href": "http://outlook.timyo.com/timyoaddin/latest/TimyoOutlookAddin.exe"
     },
     "apple": {
       "icon": "apple",
-      "title": "App Store"
+      "title": "App Store",
+      "href": "https://itunes.apple.com/us/app/timyo-email-that-matters-when/id1052885608?ls=1&mt=8"
     },
     "play": {
       "icon": "google-play",
-      "title": "Google Play"
+      "title": "Google Play",
+      "href": "https://play.google.com/store/apps/details?id=timyo.andapp"
     }
   }
 }
