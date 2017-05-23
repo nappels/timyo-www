@@ -168,7 +168,8 @@ main.home-page {
           .screen {
             position: absolute;
             top: 107px;
-            width: 294px;
+            left: 72px;
+            width: 257px;
             height: 317px;
             background-repeat: no-repeat;
             opacity: 0;
@@ -181,43 +182,29 @@ main.home-page {
 
             @media screen and (min-width: @break-md-up) {
               top: 76px;
-              background-size: 294px 317px;
+              left: 152px;
+              background-size: 257px 317px;
             }
 
             &.clear-expectations {
-              left: 54px;
               background-image: url('/assets/images/slider_screen_1.png');
 
               @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
                 background-image: url('/assets/images/slider_screen_1@2x.png');
               }
-
-              @media screen and (min-width: @break-md-up) {
-                left: 133px;
-              }
             }
             &.clear-priorities {
-              left: 52px;
               background-image: url('/assets/images/slider_screen_2.png');
 
               @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
                 background-image: url('/assets/images/slider_screen_2@2x.png');
               }
-
-              @media screen and (min-width: @break-md-up) {
-                left: 131px;
-              }
             }
             &.schedule-email {
-              left: 55px;
               background-image: url('/assets/images/slider_screen_3.png');
 
               @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
                 background-image: url('/assets/images/slider_screen_3@2x.png');
-              }
-
-              @media screen and (min-width: @break-md-up) {
-                left: 134px;
               }
             }
           }
