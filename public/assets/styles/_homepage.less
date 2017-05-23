@@ -35,6 +35,8 @@ main.home-page {
 
       .img {
         margin-bottom: -14px;
+        border-radius: 10px 10px 0 0;
+        overflow: hidden;
       }
 
       .title {
@@ -62,6 +64,10 @@ main.home-page {
           height: 265px;
           width: 251px;
           background-size: contain;
+
+          @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            background-image: url('/assets/images/hero_read_tomorrow@2x.jpg');
+          }
         }
 
         .title {
@@ -75,6 +81,10 @@ main.home-page {
           height: 265px;
           width: 251px;
           background-size: contain;
+
+          @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            background-image: url('/assets/images/hero_reply_today@2x.jpg');
+          }
         }
 
         .title {
@@ -88,6 +98,10 @@ main.home-page {
           height: 265px;
           width: 251px;
           background-size: contain;
+
+          @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            background-image: url('/assets/images/hero_todo_by@2x.jpg');
+          }
         }
 
         .title {
