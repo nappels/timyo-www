@@ -74,14 +74,15 @@ main.home-page
     .col-md-6.graphic
       .iphone-wrapper
         .screen-wrapper
-          .screen.clear-expectations.active(data-id="clearExpectations")
-          .screen.clear-priorities(data-id="clearPriorities")
-          .screen.schedule-email(data-id="scheduleEmail")
+          .screen.clear-expectations.active(data-index="0")
+          .screen.clear-priorities(data-index="1")
+          .screen.schedule-email(data-index="2")
     .col-md-6.cards
-      .card-slider
-        != partial('_partials/icon_card', public._data.icon_cards.clear_expectations)
-        != partial('_partials/icon_card', public._data.icon_cards.clear_priorities)
-        != partial('_partials/icon_card', public._data.icon_cards.schedule_email)
+      #screenshot-slider.card-slider.swipe
+        .swipe-wrap
+          != partial('_partials/icon_card', public._data.icon_cards.clear_expectations)
+          != partial('_partials/icon_card', public._data.icon_cards.clear_priorities)
+          != partial('_partials/icon_card', public._data.icon_cards.schedule_email)
       
   .row
     .col-xs-12
@@ -115,12 +116,17 @@ main.home-page
       .body-text-content-sm
         h3.h3 What our users are saying
         
-        .testimonial-wrapper
-          for testimonial in public._data.testimonials
-            .testimonial
-              p= testimonial.body
-              div.author= testimonial.author
-              div.title= testimonial.title
+        #testimonial-slider.testimonial-wrapper.swipe
+          .swipe-wrap
+            for testimonial in public._data.testimonials
+              .testimonial
+                p= testimonial.body
+                div.author= testimonial.author
+                div.title= testimonial.title
+        
+        .dot-wrapper
+          for testimonial,i in public._data.testimonials
+            .dot(data-index="#{i}", class="#{ i == 0 ? 'active' : '' }")
   
   != partial('_partials/get_timyo_footer', { home: true })
       

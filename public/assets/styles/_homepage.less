@@ -19,7 +19,7 @@ main.home-page {
     position: relative;
 
     .card-slider {
-      display: flex;
+      .flex-display;
       position: absolute;
       left: 50%;
       top: 0;
@@ -227,27 +227,27 @@ main.home-page {
     }
 
     .cards {
-      .flex-display;
       order: 0;
       margin: 0 0 16px;
 
       .card-slider {
-        .flex-display;
-        .flex-direction(row);
-        .flex(1, 1, auto);
         position: relative;
-        left: 50%;
-        transform: translate(-50%, 0);
+        overflow: visible;
+
+        .swipe-wrap {
+          .flex-display;
+          overflow: visible;
+        }
 
         .icon-card {
           border-radius: 10px;
           max-width: 450px;
+          max-width: initial;
           cursor: pointer;
           margin: 0 5px;
           padding: 10px 14px;
           box-shadow: 0 4px 20px #eee;
           text-align: left;
-          min-width: 300px;
         }
       }
     }
@@ -256,6 +256,7 @@ main.home-page {
       .justify-content(space-between);
 
       .cards {
+        .flex-display;
         min-width: auto;
         order: 2;
         flex-basis: 44%;
@@ -263,16 +264,29 @@ main.home-page {
         .justify-content(space-between);
 
         .card-slider {
+          .flex-display;
           .flex-direction(column);
           .justify-content(space-between);
           position: static;
           transform: none;
           height: 100%;
+          .flex(1, 0, auto);
+
+          .swipe-wrap {
+            .flex-display;
+            .flex-direction(column);
+            height: 100%;
+            .justify-content(space-between);
+            .flex(1, 0, auto);
+          }
 
           .icon-card {
-            margin: -20px 0 10px -20px;
+            margin: -20px 0 10px 20px;
             box-shadow: none;
             min-width: auto;
+            float: none;
+            position: static;
+            transform: none !important;
 
             &.active {
               box-shadow: 0 4px 20px #eee;
@@ -289,8 +303,10 @@ main.home-page {
       .cards {
         flex-basis: 50%;
 
-        .icon-card {
-          padding: 20px;
+        .card-slider {
+          .icon-card {
+            margin-left: -20px;
+          }
         }
       }
     }
@@ -305,6 +321,28 @@ main.home-page {
   }
 
   .testimonials-section {
+    .dot-wrapper {
+      .flex-display;
+      .justify-content(center);
+      margin-top: 26px;
+
+      .dot {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        border: 1px solid @gray-text;
+
+        &.active {
+          background: @blue-text;
+          border-color: @blue-text;
+        }
+
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+    }
+
     .testimonial {
       .author {
         font-size: 14px;
@@ -317,6 +355,21 @@ main.home-page {
         margin-top: 12px;
       }
     }
+  }
+
+  .swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+  }
+  .swipe-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  .swipe-wrap > div {
+    float:left;
+    width:100%;
+    position: relative;
   }
 
   .timyo-all-screens {
