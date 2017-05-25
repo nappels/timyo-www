@@ -25,6 +25,7 @@ var Timyo = {
     screenshots: {
       el: document.getElementById('screenshot-slider'),
       options: {
+        disableScroll: true,
         callback: function(index) {
           Timyo.events.setActiveCard(index);
           Timyo.events.setActiveHomepageScreen(index);
@@ -35,6 +36,7 @@ var Timyo = {
       el: document.getElementById('testimonial-slider'),
       options: {
         auto: 6000,
+        disableScroll: true,
         callback: function(index) {
           Timyo.events.setTestimonialActiveIndex(index);
         }
