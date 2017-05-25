@@ -13,6 +13,7 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition: box-shadow .2s ease;
 
   .icon {
     margin-right: 10px;
@@ -28,5 +29,9 @@
     font-size: 22px;
     margin-top: 3px;
     font-weight: bold;
+  }
+
+  &:hover {
+    box-shadow: 0 12px 20px #eee;
   }
 }
