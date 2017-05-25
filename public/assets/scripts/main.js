@@ -6,6 +6,7 @@
 var Timyo = {
   init: function() {
     window.addEventListener('scroll', Timyo.events.toggleScrolledClass);
+    window.addEventListener('keydown', Timyo.events.handleEscClick);
     Timyo.events.toggleScrolledClass();
     Timyo.bindEvents();
     Timyo.sliders.init();
@@ -72,6 +73,14 @@ var Timyo = {
     toggleScrolledClass: function() {
       document.body.classList.toggle('scrolled', window.pageYOffset >= 16);
     },
+    toggleModal: function() {
+      if (document.body.classList.contains('modal-open')) {
+        player.pauseVideo();
+      }
+      document.body.classList.toggle('modal-open');
+
+
+    },
     setTestimonialActiveIndex: function(index) {
       var dots = document.querySelectorAll('.testimonials-section .dot-wrapper .dot');
 
@@ -86,8 +95,25 @@ var Timyo = {
           currentDot.classList.add('active');
         }
       }
+    },
+    handleEscClick: function(e) {
+      if (e.keyCode === 27 && document.body.classList.contains('modal-open')) {
+        document.body.classList.remove('modal-open');
+      }
+
+      return false;
     }
   }
 };
 
 Timyo.init();
+
+// Global YouTube video mounting
+var player;
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    height: '560',
+    width: '315',
+    videoId: 'ONXw1IVdAcc'
+  });
+}
