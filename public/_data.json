@@ -21,21 +21,21 @@
       "dataEventClick": "handleHomepageTabClick",
       "dataTabId": "clearExpectations",
       "header": "Send email with clear expectations",
-      "body": "Not all emails are created equal. Many don't need an answer. Most can wait until tomorrow. Choose when you would like a response and what kind of response you’re looking for."
+      "body": "Choose when you would like a response and what kind of response you’re looking for."
     },
     "clear_priorities": {
       "active": false,
       "dataEventClick": "handleHomepageTabClick",
       "dataTabId": "clearPriorities",
       "header": "Receive email with clear priorities",
-      "body": "With Timyo, recipients know exactly what senders are looking for as soon as they see an email. As a Timyo user, you don't even need to open your email to know when and how to deal with it."
+      "body": "As a Timyo user, you don't even need to open your email to know when and how to deal with it."
     },
     "schedule_email": {
       "active": false,
       "dataEventClick": "handleHomepageTabClick",
       "dataTabId": "scheduleEmail",
       "header": "Schedule email to keep control",
-      "body": "Shifting between tasks kills our productivity. Even taking a minute to respond to an email pulls your focus and distracts you from everything else you’ve got going on."
+      "body": "Decide what to accomplish today, tomorrow and beyond. Responding immediately to every email kills your productivity."
     },
     "expected_replies": {
       "icon": "arrow",
@@ -64,7 +64,7 @@
     "security_first": {
       "icon": "security",
       "color": "red",
-      "header": "Security First",
+      "header": "Privacy First",
       "body": "We provide physical, electronic, and procedural safeguards to protect the confidentiality of your information."
     },
     "todo_integration": {

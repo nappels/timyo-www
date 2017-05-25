@@ -3,10 +3,23 @@ footer {
   .align-items(center);
   text-align: center;
 
-  .bottom-nav-wrapper {
+  .copy-wrapper {
     .flex-display;
-    .justify-content(space-between);
-    .align-items(center);
+    order: 2;
+    white-space: nowrap;
+  }
+
+  .bottom-nav {
+    ul {
+      li {
+        display: inline-block;
+        vertical-align: middle;
+
+        &:not(:last-child) {
+          margin-right: 16px;
+        }
+      }
+    }
   }
 
   .icon-timyo-logo-sm,
@@ -17,6 +30,7 @@ footer {
 
   .icon-timyo-logo-sm {
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   a {
@@ -26,14 +40,35 @@ footer {
   p {
     color: @gray-text;
     font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   @media screen and (min-width: @break-sm-up) {
     text-align: left;
 
+    .copy-wrapper {
+      order: 0;
+    }
+
     .icon-timyo-logo-sm {
       margin-top: 0;
+      margin-bottom: 0;
       margin-right: 26px;
+    }
+
+    .bottom-nav {
+      ul {
+        display: block;
+        float: right;
+      }
+    }
+
+    p {
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 }
