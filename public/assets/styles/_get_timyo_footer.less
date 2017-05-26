@@ -1,4 +1,24 @@
-.get-timyo_footer {
+.timyo-all-screens {
+  display: none;
+
+  @media screen and (min-width: @break-md-up) {
+    display: block;
+    background: url('../images/timyo_all_screens.jpg') no-repeat;
+    max-height: 363px;
+    height: 100%;
+    width: 100%;
+    max-width: 782px;
+    background-size: 100% auto;
+    margin: 10px auto;
+    padding-bottom: 37%;
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('../images/timyo_all_screens@2x.jpg');
+    }
+  }
+}
+
+.get-timyo-footer {
   .row {
     margin: 0 auto;
   }
