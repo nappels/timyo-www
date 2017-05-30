@@ -35,7 +35,7 @@ var Timyo = {
     testimonials: {
       el: document.getElementById('testimonial-slider'),
       options: {
-        auto: 6000,
+        auto: 9500,
         disableScroll: true,
         callback: function(index) {
           Timyo.events.setTestimonialActiveIndex(index);
