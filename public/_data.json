@@ -13,29 +13,29 @@
     "stress_free": {
       "icon": "smiley",
       "color": "green",
-      "header": "Stress-Free",
-      "body": "timyo ends the pressure of the automatic ASAP email status quo, making all email less stressful."
+      "header": "Less Stress",
+      "body": "timyo ends the urge of instantly replying to email, making email management less stressful."
     },
     "clear_expectations": {
       "active": true,
       "dataEventClick": "handleHomepageTabClick",
       "dataTabId": "clearExpectations",
       "header": "Send email with clear expectations",
-      "body": "Choose when you would like a response and what kind of response you’re looking for."
+      "body": "Choose when you would like a response and what kind of response is expected."
     },
     "clear_priorities": {
       "active": false,
       "dataEventClick": "handleHomepageTabClick",
       "dataTabId": "clearPriorities",
-      "header": "Receive email with clear priorities",
-      "body": "As a Timyo user, you don't even need to open your email to know when and how to deal with it."
+      "header": "Understand priorities at a glance",
+      "body": "As a Timyo user, no need to open your email to know when and how to deal with it."
     },
     "schedule_email": {
       "active": false,
       "dataEventClick": "handleHomepageTabClick",
       "dataTabId": "scheduleEmail",
-      "header": "Schedule email to keep control",
-      "body": "Decide what to accomplish today, tomorrow and beyond. Responding immediately to every email kills your productivity."
+      "header": "Keep your email on a schedule",
+      "body": "Decide what to accomplish today, tomorrow or later and focus on what matters when it matters."
     },
     "expected_replies": {
       "icon": "arrow",
@@ -70,8 +70,8 @@
     "todo_integration": {
       "icon": "clipboard",
       "color": "blue",
-      "header": "To-Do Integration",
-      "body": "Create your own To-Do straight from your inbox. Just send yourself an email with expectation."
+      "header": "Schedule your own To-do",
+      "body": "Create you own To-Dos from your inbox and let Timyo remind you when to deal with it."
     },
     "team_workload": {
       "icon": "thumb",
@@ -83,18 +83,18 @@
       "icon": "binoculars",
       "color": "green",
       "header": "Protect your team focus",
-      "body": "Give a clear understanding of what each individual needs exactly to accomplish today. Your colleagues' time is expensive."
+      "body": "Your colleagues' time is expensive, so reduce the number of email interruptions. Give a clear understanding of what each individual needs to accomplish today, tomorrow or later."
     },
     "reduce_email": {
       "icon": "hourglass",
       "color": "red",
-      "header": "Reducing busy email",
-      "body": "By helping others to be more productive, we help ourselves to make our daily email workload more manageable. A gift that gives back."
+      "header": "Reduce unnecessary emails",
+      "body": "By helping others to be more productive and reply only when necessary, we help ourselves to make our daily volume of emails more manageable. A gift that gives back."
     },
     "daily_goal": {
       "icon": "cup",
       "color": "yellow",
-      "header": "Archive your daily goal",
+      "header": "Set clear work-life boundaries",
       "body": "Even if your colleagues check their emails after work, they know they don’t have to reply to your work emails until they're back at the office."
     }
   },
@@ -103,7 +103,7 @@
       "icon": "wand",
       "color": "green",
       "header": "Email is broken. It’s time to fix it.",
-      "body": "If email weren’t broken, Timyo wouldn’t exist. We saw a world in which email had gone from being celebrated to being hated as one big time-sucking annoyance. We believe Timyo is a crucial part in making email a powerful, essential communication tool."
+      "body": "If email weren't broken, timyo wouldn't exist. Email has gone from being celebrated to being hated as one big time-sucking annoyance. We believe timyo plays a crucial part in repositioning email as a powerful, essential communication tool."
     },
     {
       "icon": "cup",
