@@ -61,14 +61,28 @@ footer {
 
     .bottom-nav {
       ul {
+        text-align: center;
         display: block;
         float: right;
+        margin-right: 60px;
+
+        li {
+          margin-right: 16px;
+        }
       }
     }
 
     p {
       margin-left: 0;
       margin-right: 0;
+    }
+  }
+
+  @media screen and (min-width: @break-max-width) {
+    .bottom-nav {
+      ul {
+        margin-right: 0;
+      }
     }
   }
 }
