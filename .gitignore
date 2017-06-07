@@ -1,6 +1,5 @@
 # Folders to ignore
 bower_components
-node_modules
 public/assets/scripts/vendor
 public/assets/styles/vendor
 www
